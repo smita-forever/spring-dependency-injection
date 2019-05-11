@@ -4,11 +4,11 @@ package com.example.dependencyinjection.services;
  * @author smita
  *
  */
-public class HelloWorldServiceEnglishImpl implements HelloWorldService {
+public class HelloWorldServiceGermanImpl implements HelloWorldService {
 
 	@Override
 	public String getGreeting() {
-		return "Hello World";
+		return "Hallo Welt";
 	}
 
 }
